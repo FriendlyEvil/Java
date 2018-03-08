@@ -4,7 +4,7 @@ public interface Queue {
 
     /*
      * Pre: element != null
-     * Post: queue immutable && size' = size + 1
+     * Post: queue elements immutable && size' = size + 1
      * && last element queue = element
      */  
     void enqueue(Object element);
