@@ -1,5 +1,5 @@
 # Университет Итмо. Кафедра КТ
-<h3 id="homework-9">Домашнее задание 9. Web Crawler</h3><ol><li>
+<h3 id="homework-9">Web Crawler</h3><ol><li>
             Напишите Web Crawler, обходящий HTML-страницы
             на заданную глубину и вытаскивающий
             из них картинки.
@@ -42,7 +42,7 @@ public interface WebCrawler {
             класса <a href="https://docs.oracle.com/javase/8/docs/api/java/net/URL.html">URL</a>.
         </li><li>
             Вы можете считать, что все страницы имеют кодировку UTF-8.
-        </li></ol><h3 id="homework-10">Домашнее задание 10. Offline Browser</h3><ol><li>
+        </li></ol><h3 id="homework-10">Offline Browser</h3><ol><li>
             Напишите Offline Browser, обходящий HTML-страницы
             на заданную глубину и сохраняющий их для
             offline-просмотра.
