@@ -1,5 +1,5 @@
 # Университет Итмо. Кафедра КТ
-<h3 id="homework-9">Web Crawler</h3><ol><li>
+<h3>Web Crawler</h3><ol><li>
             Напишите Web Crawler, обходящий HTML-страницы
             на заданную глубину и вытаскивающий
             из них картинки.
@@ -42,7 +42,7 @@ public interface WebCrawler {
             класса <a href="https://docs.oracle.com/javase/8/docs/api/java/net/URL.html">URL</a>.
         </li><li>
             Вы можете считать, что все страницы имеют кодировку UTF-8.
-        </li></ol><h3 id="homework-10">Offline Browser</h3><ol><li>
+        </li></ol><h3>Offline Browser</h3><ol><li>
             Напишите Offline Browser, обходящий HTML-страницы
             на заданную глубину и сохраняющий их для
             offline-просмотра.
@@ -63,3 +63,11 @@ public interface WebCrawler {
             скриптов и CSS) могут отображаться некорректно.
             Правильная загрузка таких сайтов не входит в
             данное домашнее задание.
+            <h3>Очереди</h3><ol><li>
+            Определите интерфейс очереди <code>Queue</code> и опишите его контракт.
+        </li><li>
+            Реализуйте класс <code>LinkedQueue</code> &mdash; очередь на связном списке.
+        </li><li>
+            Выделите общие части классов <code>LinkedQueue</code>
+            и <code>ArrayQueue</code> в базовый класс <code>AbstractQueue</code>.
+        </li></ol>
