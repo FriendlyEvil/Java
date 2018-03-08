@@ -3,7 +3,7 @@ package queue;
 public interface Queue {
 
     /*
-     * Pre: element != null element 
+     * Pre: element != null
      * Post: queue immutable && size' = size + 1
      * && last element queue = element
      */  
